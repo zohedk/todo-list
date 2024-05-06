@@ -1,0 +1,14 @@
+.task-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.hide {
+  width: 0;
+  height: 0;
+}
+
+.show {
+  height: 100vh;
+}
